@@ -16,6 +16,7 @@ public class GetMostCommonFromMergeTest {
         Integer[] arrayToMerge = {1, 2, expected, 8, 4, 5, expected, 0, 9, 8};
         ArrayUtility<Integer> arrayUtility = new ArrayUtility<Integer>(inputArray);
 
+
         // When
         Integer actual = arrayUtility.getMostCommonFromMerge(arrayToMerge);
 
